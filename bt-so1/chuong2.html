@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>2.</title>
+    </head>
+    <body>
+        <!-- Đoạn Văn - paragraph -->
+        <div style="background: lavender">
+            <h3>Wellcome to HTML</h3>
+            <p style="text-align: right">Mục đích là nhóm ý tưởng logic lại</p>
+            <p>với nhau và áp dụng một số định dạng nội dung</p>
+        </div>
+        <!-- Xuống dòng - Break line <br/> -->
+        <div>
+            <h3>Trường đại học <br />Nha Trang</h3>
+            <p style="color: red">Khoa CNTT</p>
+        </div>
+
+        <!-- Đường kẻ ngang - Horizontal rules <hr/> -->
+
+        <div>
+            <h3>
+                Trường đại học <br />
+                Nha Trang
+            </h3>
+            <p style="color: red">Khoa CNTT</p>
+            <hr size="5" align="center" width="40%" />
+        </div>
+
+        <!-- WYSIWYG với tag <pre> -->
+
+        <pre>
+                Xuống
+                dòng và để khoảng            trắng
+            </pre
+        >
+
+        <!-- Thẻ khối - div,span -->
+
+        <div>
+            <p>Division 1</p>
+            <p>DIV được dùng để nhóm các phần tử</p>
+            <p>DIV thường dùng cho khối các phần tử</p>
+        </div>
+        <div style="text-align: right">
+            <p>Division 2</p>
+            <p>
+                Div 2 canh lề phải <span style="font-size: 20px; color: blue">Định dạng chung </span>cho tất cả các phần
+                tử trong thẻ DIV này
+            </p>
+        </div>
+
+        <!-- kẻ bảng - table 1-->
+
+        <div style="background-color: aquamarine; width: 80%">
+            <a href="#!" name="Chuong-2"
+                ><h2 style="color: blueviolet; font-size: 30px">Chương 2. Nội dung chương 2</h2></a
+            >
+            <table border="1" style="width: 80%">
+                <tr style="background-color: blue; text-align: center">
+                    <th style="width: 60%">Name</th>
+                    <th style="width: 40%">Percentage</th>
+                </tr>
+                <tr>
+                    <td>Apples</td>
+                    <td>43%</td>
+                </tr>
+                <tr>
+                    <td>Bananas</td>
+                    <td>34%</td>
+                </tr>
+                <tr>
+                    <td>Orange</td>
+                    <td>13%</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- kẻ bảng - table 2-->
+
+        <table border="1">
+            <caption>
+                Bảng thông tin
+            </caption>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>Hoa</td>
+                <td>098943434</td>
+                <td>Nha Trang</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Mai</td>
+                <td>095677</td>
+                <td rowspan="2">Phú Yên</td>
+            </tr>
+            <tr>
+                <td>0945454</td>
+            </tr>
+            <tr>
+                <td colspan="2">Vinh</td>
+                <td>Hà nội</td>
+            </tr>
+        </table>
+
+        <!-- kẻ bảng - table 3-->
+        <br />
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Telephone</th>
+                <th>Country</th>
+                <th>Center</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Bill Gate</td>
+                <td>(505)256-3600</td>
+                <td rowspan="3" colspan="2">Silicon valley - USA</td>
+            </tr>
+            <tr>
+                <td>0844 41 45 387</td>
+            </tr>
+            <tr style="text-align: center">
+                <td>Steve Job</td>
+                <td>1-800-676-2775</td>
+            </tr>
+        </table>
+
+        <!-- Form -->
+        <br />
+
+        <form action="" method="post">
+            Email: <input type="text" /> <br />
+            Password: <input type="password" />
+            <p>Lựa chọn buổi học thực hành</p>
+            <input type="checkbox" name="thu2" value="t2" /> Thứ 2 <br />
+            <input type="checkbox" name="thu3" value="t3" /> Thứ 3 <br />
+            <input type="checkbox" name="thu4" value="t4" /> Thứ 4 <br />
+            <input type="checkbox" name="thu5" value="t5" checked /> Thứ 5 <br />
+        </form>
+    </body>
+</html>
