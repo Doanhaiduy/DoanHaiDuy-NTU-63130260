@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Lab 2</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="chat btn">
+                <i class="fa-solid fa-comment-dots"></i>
+                Let's Chat!
+            </div>
+            <div class="header">
+                <div class="header-top">
+                    <h3 class="header-top__logo">Prickles & Co.</h3>
+                    <ul class="header-top__nav">
+                        <li>Shop</li>
+                        <li>About</li>
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                    </ul>
+                    <div class="header-top__contact">
+                        <strong>Call Us Now! 123-456-7890</strong>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="header-bottom__logo">
+                        <span class="header-bottom__logo--text">ESTB</span>
+                        <img
+                            class="header-bottom__logo--img"
+                            src="https://cdn.haitrieu.com/wp-content/uploads/2022/03/Logo-DH-Nha-Trang-NTU-1.png"
+                            alt=""
+                        />
+                        <span class="header-bottom__logo--text">2023</span>
+                    </div>
+                    <h1 class="header-bottom__heading">Prickles & Co</h1>
+                    <div class="header-bottom__description">Bring nature indoors</div>
+                    <div class="header-bottom__btn btn">Shop Now</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="container__product">
+                    <div style="--item-img: url(../img/pic3.jpg)" class="container__product-item">
+                        <h2 class="container__product-item--header">Cacti</h2>
+                        <div class="container__product-item--btn btn">Shop Collection</div>
+                    </div>
+                    <div style="--item-img: url(../img/pic5.jpg)" class="container__product-item">
+                        <div class="container__product-item--header">Plants</div>
+                        <div class="container__product-item--btn btn">Shop Collection</div>
+                    </div>
+                    <div style="--item-img: url(../img/pic7.jpg)" class="container__product-item">
+                        <div class="container__product-item--header">Succulents</div>
+                        <div class="container__product-item--btn btn">Shop Collection</div>
+                    </div>
+                </div>
+                <div class="container__about">
+                    <div style="--column-size: 4" class="container__about-item">
+                        <h2 class="container__about-item--header">About us</h2>
+                        <div class="container__about-item--description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatum eligendi
+                                inventore magni at, natus eius quas obcaecati ipsam, tempora sapiente? Deserunt impedit
+                                aliquam excepturi voluptates amet facilis ipsa non a repellat
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reiciendis nesciunt
+                                pariatur minus repudiandae consectetur sed maiores ipsa fuga ad vitae porro non dicta
+                                at, quod soluta voluptatum?
+                            </p>
+                        </div>
+                    </div>
+                    <div style="--column-size: 2" class="container__about-item">
+                        <img src="./assets/img/pic6.jpg" alt="" />
+                    </div>
+                    <div style="--column-size: 2" class="container__about-item">
+                        <img src="./assets/img/pic4.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="container__sale">
+                    <div class="container__sale-item">
+                        <img src="./assets/img/pic1.jpg" alt="" />
+                    </div>
+                    <div class="container__sale-item">
+                        <h1 class="container__sale-item--header">Buy Online now & get 10% off !</h1>
+                        <div class="container__sale-item--btn btn">Shop Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <form action="#!" class="footer__form">
+                    <h2 class="footer__form-header">For special requests & orders</h2>
+                    <div class="form form-name">
+                        <div>
+                            <label for="FName" class="footer__form-label">First Name *</label>
+                            <input type="text" id="FName" class="footer__form-input" />
+                        </div>
+                        <div>
+                            <label for="LName" class="footer__form-label">Last Name *</label>
+                            <input type="text" id="LName" class="footer__form-input" />
+                        </div>
+                    </div>
+                    <div class="form form-eamil">
+                        <label for="eamil" class="footer__form-label">Email *</label>
+                        <input required type="email" id="eamil" class="footer__form-input" />
+                    </div>
+                    <div class="form form-tel">
+                        <label for="tel" class="footer__form-label">Phone</label>
+                        <input type="tel" id="tel" class="footer__form-input" />
+                    </div>
+                    <div class="form form-mess">
+                        <label for="mess" class="footer__form-label">Message</label>
+                        <textarea
+                            placeholder="Write something here"
+                            rows="8"
+                            type="text"
+                            id="mess"
+                            class="footer__form-input"
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="footer__form-btn btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
